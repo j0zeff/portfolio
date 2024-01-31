@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="scripts.js" defer></script>
+    <title>Vladyslav Volkov</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-wrapper">
+            <div class="logo"><a onclick="scrollToSection('about')">Vladyslav<br>Volkov</a></div>
+            <button class="menu"><svg width="32px" height="32px" viewBox="0 0 24 24" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path d="M4 6H20M4 12H20M4 18H20" stroke="#000000" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round"></path>
+                    </g>
+                </svg>
+            </button>
+            <div class="nav-bar">
+                <div class="nav-item active"><a onclick="scrollToSection('about')">about</a></div>
+                <div class="nav-item"><a onclick="scrollToSection('skills')">skills</a></div>
+                <div class="nav-item"><a onclick="scrollToSection('projects')">projects</a></div>
+                <div class="nav-item"><a onclick="scrollToSection('calculator')">price</a></div>
+                <div class="nav-item"><a onclick="scrollToSection('contact')">contact me</a></div>
+            </div>
+        </div>
+    </header>
+    <div class="body-inner">
+        <div class="about-me" id="about">
+            <div class="about-me-phone">
+                <p class="about-me-title-phone">ABOUT ME</p>
+                <p class="about-me-text-phone">I'm passionate about programming, specializing in crafting web
+                    applications
+                    using C#. The Gallup test identified my core themes as Harmony, Adaptability, Restorative,
+                    Developer, and Context. Seeking consensus in communication, I aim to find common ground in
+                    conflicting situations.<br><br>Flexibility and adaptability enable me to work effectively even
+                    in unexpected conditions. I focus on nurturing the potential of others, creating environments
+                    for their growth.</p>
+            </div>
+            <div class="figures">
+                <div class="black-section">
+                    <svg class="black-square" xmlns="http://www.w3.org/2000/svg" width="514" height="500"
+                        viewBox="0 0 514 500" fill="none">
+                        <path d="M41.3834 0H514V466.216L469.795 500H0V27.4775L41.3834 0Z" fill="black" />
+                    </svg>
+                    <p class="about-me-title">ABOUT ME</p>
+                    <p class="about-me-text">I'm passionate about programming, specializing in crafting web applications
+                        using C#. The Gallup test identified my core themes as Harmony, Adaptability, Restorative,
+                        Developer, and Context. Seeking consensus in communication, I aim to find common ground in
+                        conflicting situations.<br><br>Flexibility and adaptability enable me to work effectively even
+                        in unexpected conditions. I focus on nurturing the potential of others, creating environments
+                        for their growth.</p>
+                </div>
+                <div class="white-section">
+                    <svg class="white-square" xmlns="http://www.w3.org/2000/svg" width="509" height="502"
+                        viewBox="0 0 509 502" fill="none">
+                        <path d="M0.5 501.5V36.2403L45.1754 0.5H508.5V461.271L461.814 501.5H0.5Z" fill="white"
+                            stroke="black" />
+                    </svg>
+                    <div class="white-picture"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="skills" id="skills">
+            <div class="skills-phone">
+                <div class="skills-phone-inner">
+                    <p class="skills-title">SKILLS</p>
+                    <p class="skills-phone-item">-C#</p>
+                    <p class="skills-phone-item">-ASP.NET Core</p>
+                    <p class="skills-phone-item">-MVC</p>
+                    <p class="skills-phone-item">-Entity Framework Core</p>
+                    <p class="skills-phone-item">-HTML5</p>
+                    <p class="skills-phone-item">-CSS</p>
+                    <p class="skills-phone-item">-JavaScript</p>
+                    <p class="skills-phone-item">-jQuery</p>
+                    <p class="skills-phone-item">-SQL</p>
+                    <p class="skills-phone-item">-PostgreSQL</p>
+                    <p class="skills-phone-item">-MS SQL Server</p>
+                    <p class="skills-phone-item">-Figma</p>
+                    <p class="skills-phone-item">-Git</p>
+                    <p class="skills-phone-item">-REST Api</p>
+                    <p class="skills-phone-item">-Web Api</p>
+                </div>
+            </div>
+            <div class="skills-container">
+                <p class="skills-title">SKILLS</p>
+                <div class="skills-box skill-box-1" onmouseover="showSkills(this)" onmouseout="hideSkills(this)">
+                    <p class="skill-box-title">Back-end</p>
+                    <div class="skill-box-inner">
+                        <p>C#</p>
+                        <p>ASP.NET Core</p>
+                        <p>MVC</p>
+                        <p>Entity Framework Core</p>
+                    </div>
+                </div>
+                <div class="skills-box skill-box-2" onmouseover="showSkills(this)" onmouseout="hideSkills(this)">
+                    <p class="skill-box-title">Front-end</p>
+                    <div class="skill-box-inner">
+                        <p>HTML5</p>
+                        <p>CSS</p>
+                        <p>JavaScript</p>
+                        <p>jQuery</p>
+                    </div>
+                </div>
+                <div class="oneline-section">
+                    <div class="skills-box skill-box-3" onmouseover="showSkills(this)" onmouseout="hideSkills(this)">
+                        <p class="skill-box-title">Database Technologies</p>
+                        <div class="skill-box-inner">
+                            <p>SQL</p>
+                            <p>PostgreSQL</p>
+                            <p>MS SQL Server</p>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="skills-box skill-box-4" onmouseover="showSkills(this)" onmouseout="hideSkills(this)">
+                        <p class="skill-box-title">Design</p>
+                        <div class="skill-box-inner">
+                            <p>Figma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-box skill-box-5" onmouseover="showSkills(this)" onmouseout="hideSkills(this)">
+                    <p class="skill-box-title">API and Version Control</p>
+                    <div class="skill-box-inner">
+                        <p>Git</p>
+                        <p>REST Api</p>
+                        <p>Web Api</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="projects" id="projects">
+            <p class="projects-title">PROJECTS</p>
+            <div class="projects-slider">
+                <div class="slider-container" id="slider1">
+                    <div class="slider-inner">
+                        <a href="/project2.html" id="project-btn1" class="project-btn">
+                            <p id="title1" class="item-title">Grocery Store</p>
+                            <img src="/media/grocery-store.png" alt="" class="slider-img">
+                        </a>
+                        <a href="/project1.html" id="project-btn2" class="project-btn">
+                            <p id="title2" class="item-title">MyLovelyLib</p>
+                            <img src="/media/library.png" alt="" class="slider-img">
+                        </a>
+                    </div>
+                </div>
+                <button class="slider-btn left" onclick="changeSlide('slider1')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="16" viewBox="0 0 29 16" fill="none">
+                        <path
+                            d="M0.292892 7.29289C-0.0976315 7.68342 -0.0976315 8.31658 0.292892 8.70711L6.65685 15.0711C7.04738 15.4616 7.68054 15.4616 8.07107 15.0711C8.46159 14.6805 8.46159 14.0474 8.07107 13.6569L2.41421 8L8.07107 2.34315C8.46159 1.95262 8.46159 1.31946 8.07107 0.928932C7.68054 0.538408 7.04738 0.538408 6.65685 0.928932L0.292892 7.29289ZM29 7L1 7L1 9L29 9L29 7Z"
+                            fill="black" />
+                    </svg>
+                </button>
+                <button class="slider-btn right" onclick="changeSlide('slider1')">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="29" height="16" viewBox="0 0 29 16" fill="none">
+                        <path
+                            d="M28.7071 8.70711C29.0976 8.31658 29.0976 7.68342 28.7071 7.29289L22.3431 0.928932C21.9526 0.538408 21.3195 0.538408 20.9289 0.928932C20.5384 1.31946 20.5384 1.95262 20.9289 2.34315L26.5858 8L20.9289 13.6569C20.5384 14.0474 20.5384 14.6805 20.9289 15.0711C21.3195 15.4616 21.9526 15.4616 22.3431 15.0711L28.7071 8.70711ZM0 9H28V7H0L0 9Z"
+                            fill="black" />
+                    </svg>
+                </button>
+            </div>
+            <div class="projects-photos">
+                <div class="projects-photos-inner">
+                    <a href="/project1.html">
+                        <p class="project-photo-1">MyLovelyLib</p>
+                        <div class="logo-img-zoom item1 image-wrapper">
+
+                            <img src="/media/library.png" alt="" class="image">
+                        </div>
+                    </a>
+                    <a href="/project2.html">
+                        <p class="project-photo-2">Grocery Store</p>
+                        <div class="logo-img-zoom item2 image-wrapper">
+                            <img src="/media/grocery-store.png" alt="" class="image">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="calculator" id="calculator">
+            <div class="calculator-inner">
+                <p class="calculator-title">PRICING</p>
+                <div class="calculator-container">
+                    <div class="service-row" data-service="backend">
+                        <div>Back-end</div>
+                        <div>15$ per hour</div>
+                        <div><input type="number" min="0" value="0" class="hours-input" onchange="calculateTotal()">
+                        </div>
+                    </div>
+                    <div class="service-row" data-service="frontend">
+                        <div>Front-end</div>
+                        <div>13$ per hour</div>
+                        <div><input type="number" min="0" value="0" class="hours-input" onchange="calculateTotal()">
+                        </div>
+                    </div>
+                    <div class="service-row" data-service="design">
+                        <div>Web-design</div>
+                        <div style="margin-right: 20px;">10$ per hour</div>
+                        <div><input type="number" min="0" value="0" class="hours-input" onchange="calculateTotal()">
+                        </div>
+                    </div>
+                    <div class="service-row" data-service="testing">
+                        <div>QA Manual Tester</div>
+                        <div style="margin-right: 70px;">8$ per hour</div>
+                        <div><input type="number" min="0" value="0" class="hours-input" onchange="calculateTotal()">
+                        </div>
+                    </div>
+                    <div class="total-row">
+                        <div>Total</div>
+                        <div id="grandTotal">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-me" id="contact">
+            <p class="contact-me-title">CONTACT ME</p>
+            <form action="#" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+
+                <label for="email">Email*</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message*</label>
+                <input id="message" name="message" required></textarea>
+
+                <button id="submit" type="submit">Submit</button>
+            </form>
+        </div>
+
+        <div class="footer">
+            <div class="socials">
+                <a href="https://www.instagram.com/vladyslav.vo/"><svg width="32px" height="32px" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                                fill="#ffffff"></path>
+                            <path
+                                d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                                fill="#ffffff"></path>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                                fill="#ffffff"></path>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://github.com/j0zeff"><svg width="30px" height="30px" viewBox="0 0 20 20" version="1.1"
+                        xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <title>github [#ffffff]</title>
+                            <desc>Created with Sketch.</desc>
+                            <defs> </defs>
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Dribbble-Light-Preview" transform="translate(-140.000000, -7559.000000)"
+                                    fill="#ffffff">
+                                    <g id="icons" transform="translate(56.000000, 160.000000)">
+                                        <path
+                                            d="M94,7399 C99.523,7399 104,7403.59 104,7409.253 C104,7413.782 101.138,7417.624 97.167,7418.981 C96.66,7419.082 96.48,7418.762 96.48,7418.489 C96.48,7418.151 96.492,7417.047 96.492,7415.675 C96.492,7414.719 96.172,7414.095 95.813,7413.777 C98.04,7413.523 100.38,7412.656 100.38,7408.718 C100.38,7407.598 99.992,7406.684 99.35,7405.966 C99.454,7405.707 99.797,7404.664 99.252,7403.252 C99.252,7403.252 98.414,7402.977 96.505,7404.303 C95.706,7404.076 94.85,7403.962 94,7403.958 C93.15,7403.962 92.295,7404.076 91.497,7404.303 C89.586,7402.977 88.746,7403.252 88.746,7403.252 C88.203,7404.664 88.546,7405.707 88.649,7405.966 C88.01,7406.684 87.619,7407.598 87.619,7408.718 C87.619,7412.646 89.954,7413.526 92.175,7413.785 C91.889,7414.041 91.63,7414.493 91.54,7415.156 C90.97,7415.418 89.522,7415.871 88.63,7414.304 C88.63,7414.304 88.101,7413.319 87.097,7413.247 C87.097,7413.247 86.122,7413.234 87.029,7413.87 C87.029,7413.87 87.684,7414.185 88.139,7415.37 C88.139,7415.37 88.726,7417.2 91.508,7416.58 C91.513,7417.437 91.522,7418.245 91.522,7418.489 C91.522,7418.76 91.338,7419.077 90.839,7418.982 C86.865,7417.627 84,7413.783 84,7409.253 C84,7403.59 88.478,7399 94,7399"
+                                            id="github-[#ffffff]"> </path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/vladyslav-volkov-1891b7294/"><svg fill="#ffffff" height="32px"
+                        width="32px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-143 145 512 512" xml:space="preserve"
+                        stroke="#ffffff">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M113,145c-141.4,0-256,114.6-256,256s114.6,256,256,256s256-114.6,256-256S254.4,145,113,145z M41.4,508.1H-8.5V348.4h49.9 V508.1z M15.1,328.4h-0.4c-18.1,0-29.8-12.2-29.8-27.7c0-15.8,12.1-27.7,30.5-27.7c18.4,0,29.7,11.9,30.1,27.7 C45.6,316.1,33.9,328.4,15.1,328.4z M241,508.1h-56.6v-82.6c0-21.6-8.8-36.4-28.3-36.4c-14.9,0-23.2,10-27,19.6 c-1.4,3.4-1.2,8.2-1.2,13.1v86.3H71.8c0,0,0.7-146.4,0-159.7h56.1v25.1c3.3-11,21.2-26.6,49.8-26.6c35.5,0,63.3,23,63.3,72.4V508.1z ">
+                            </path>
+                        </g>
+                    </svg>
+                </a>
+            </div>
+            <div class="line"></div>
+            <p class="name">Vladyslav Volkov</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
